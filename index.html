@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>前端开发者的成长之路</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">前端开发日志</a>
+            <ul class="nav-links">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="blog.html">博客</a></li>
+                <li><a href="projects.html">项目</a></li>
+                <li><a href="about.html">关于我</a></li>
+                <li><a href="contact.html">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 横幅 -->
+    <header class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <h1>前端开发者的成长之路</h1>
+                <p>一名大一前端开发者的学习日志与项目分享</p>
+                <div class="banner-tags">
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">React</span>
+                    <span class="tag">Vue</span>
+                    <span class="tag">前端工程化</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 最新博客文章 -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">最新博客文章</h2>
+            <div class="grid">
+                <div class="card scroll-reveal">
+                    <h3 class="card-title">HTML5语义化标签的最佳实践</h3>
+                    <p class="card-date">2026-01-08</p>
+                    <p class="card-content">HTML5引入了许多语义化标签，如header、nav、section、article等，这些标签不仅使代码更具可读性，还有助于SEO优化。本文将介绍这些标签的正确使用方法和最佳实践...</p>
+                    <a href="blog.html" class="btn">阅读更多</a>
+                </div>
+                <div class="card scroll-reveal">
+                    <h3 class="card-title">CSS3动画与过渡效果详解</h3>
+                    <p class="card-date">2026-01-05</p>
+                    <p class="card-content">CSS3动画和过渡效果可以为网页增添生动的视觉体验。本文将深入讲解@keyframes规则、transition属性以及如何创建流畅的动画效果，同时分享一些性能优化技巧...</p>
+                    <a href="blog.html" class="btn">阅读更多</a>
+                </div>
+                <div class="card scroll-reveal">
+                    <h3 class="card-title">JavaScript基础：DOM操作入门</h3>
+                    <p class="card-date">2026-01-02</p>
+                    <p class="card-content">DOM操作是前端开发的核心技能之一。本文将从基础开始，介绍如何使用JavaScript选择元素、修改内容、添加事件监听器等，帮助初学者快速掌握DOM操作技巧...</p>
+                    <a href="blog.html" class="btn">阅读更多</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能展示 -->
+    <section class="section" style="background-color: #f8f9fa;">
+        <div class="container">
+            <h2 class="section-title">技术技能</h2>
+            <div class="grid">
+                <div class="skills scroll-reveal">
+                    <h3 style="margin-bottom: 1.5rem; color: var(--primary-color);">前端基础</h3>
+                    <div class="skill">
+                        <div class="skill-name">
+                            <span>HTML5</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">
+                            <span>CSS3</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">
+                            <span>JavaScript</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills scroll-reveal">
+                    <h3 style="margin-bottom: 1.5rem; color: var(--primary-color);">前端框架</h3>
+                    <div class="skill">
+                        <div class="skill-name">
+                            <span>React</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 60%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">
+                            <span>Vue.js</span>
+                            <span>55%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 55%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">
+                            <span>Bootstrap</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills scroll-reveal">
+                    <h3 style="margin-bottom: 1.5rem; color: var(--primary-color);">开发工具</h3>
+                    <div class="skill">
+                        <div class="skill-name">
+                            <span>Git</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">
+                            <span>VS Code</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">
+                            <span>Figma</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 65%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目展示 -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">精选项目</h2>
+            <div class="grid">
+                <div class="project-card scroll-reveal">
+                    <div class="project-image">📱</div>
+                    <div class="project-info">
+                        <h3 class="project-title">响应式个人博客</h3>
+                        <p class="project-description">使用HTML5、CSS3和JavaScript创建的响应式个人博客网站，支持移动端和桌面端访问，包含丰富的动画效果。</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">响应式设计</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card scroll-reveal">
+                    <div class="project-image">🛒</div>
+                    <div class="project-info">
+                        <h3 class="project-title">电商网站原型</h3>
+                        <p class="project-description">使用React框架构建的电商网站原型，包含商品列表、购物车和用户登录功能，采用现代UI设计风格。</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">CSS Modules</span>
+                            <span class="project-tag">电商</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card scroll-reveal">
+                    <div class="project-image">🎨</div>
+                    <div class="project-info">
+                        <h3 class="project-title">在线颜色选择器</h3>
+                        <p class="project-description">功能丰富的在线颜色选择器工具，支持RGB、HEX、HSL等多种颜色格式，可实时预览颜色效果。</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">工具</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 学习进度 -->
+    <section class="section" style="background-color: #f8f9fa;">
+        <div class="container">
+            <h2 class="section-title">学习进度</h2>
+            <div class="grid">
+                <div class="card scroll-reveal">
+                    <h3 class="card-title">当前学习计划</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+                            <span style="color: var(--success-color); margin-right: 0.5rem;">✓</span>
+                            <strong>HTML5高级特性</strong>
+                        </li>
+                        <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+                            <span style="color: var(--success-color); margin-right: 0.5rem;">✓</span>
+                            <strong>CSS3动画与过渡</strong>
+                        </li>
+                        <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+                            <span style="color: var(--warning-color); margin-right: 0.5rem;">⏳</span>
+                            <strong>JavaScript ES6+</strong>
+                        </li>
+                        <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+                            <span style="color: var(--warning-color); margin-right: 0.5rem;">⏳</span>
+                            <strong>React框架深入</strong>
+                        </li>
+                        <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+                            <span style="color: var(--danger-color); margin-right: 0.5rem;">🔜</span>
+                            <strong>前端工程化</strong>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card scroll-reveal">
+                    <h3 class="card-title">学习资源推荐</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 1rem;">
+                            <strong>MDN Web Docs</strong>
+                            <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; color: #6c757d;">最权威的前端开发文档</p>
+                        </li>
+                        <li style="margin-bottom: 1rem;">
+                            <strong>freeCodeCamp</strong>
+                            <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; color: #6c757d;">免费的编程学习平台</p>
+                        </li>
+                        <li style="margin-bottom: 1rem;">
+                            <strong>前端每周清单</strong>
+                            <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; color: #6c757d;">每周前端技术资讯</p>
+                        </li>
+                        <li style="margin-bottom: 1rem;">
+                            <strong>CSS-Tricks</strong>
+                            <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; color: #6c757d;">CSS技巧和教程</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>前端开发日志</h3>
+                    <p>记录一名大一前端开发者的学习历程和项目分享，分享前端技术知识和学习经验。</p>
+                </div>
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="blog.html">博客</a></li>
+                        <li><a href="projects.html">项目</a></li>
+                        <li><a href="about.html">关于我</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>联系我</h3>
+                    <ul>
+                        <li>邮箱：frontend@example.com</li>
+                        <li>GitHub：github.com/frontend-dev</li>
+                        <li>微信：frontend-dev</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 前端开发日志. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // 滚动动画
+        function revealOnScroll() {
+            const reveals = document.querySelectorAll('.scroll-reveal');
+            
+            for (let i = 0; i < reveals.length; i++) {
+                const windowHeight = window.innerHeight;
+                const elementTop = reveals[i].getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add('revealed');
+                }
+            }
+        }
+        
+        window.addEventListener('scroll', revealOnScroll);
+        
+        // 页面加载时执行一次
+        revealOnScroll();
+    </script>
+</body>
+</html>

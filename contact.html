@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我 - 前端开发日志</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">前端开发日志</a>
+            <ul class="nav-links">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="blog.html">博客</a></li>
+                <li><a href="projects.html">项目</a></li>
+                <li><a href="about.html">关于我</a></li>
+                <li><a href="contact.html">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 页面标题 -->
+    <header class="banner" style="padding: 4rem 0;">
+        <div class="container">
+            <div class="banner-content">
+                <h1>联系我</h1>
+                <p>有任何问题或建议，欢迎随时联系我</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- 联系信息和表单 -->
+    <section class="section">
+        <div class="container">
+            <div class="grid">
+                <div class="card scroll-reveal">
+                    <h3 class="card-title">联系信息</h3>
+                    <div style="margin-bottom: 2rem;">
+                        <div style="margin-bottom: 1rem; display: flex; align-items: center;">
+                            <span style="font-size: 1.5rem; margin-right: 1rem; color: var(--primary-color);">📧</span>
+                            <div>
+                                <strong>邮箱</strong>
+                                <p>frontend@example.com</p>
+                            </div>
+                        </div>
+                        <div style="margin-bottom: 1rem; display: flex; align-items: center;">
+                            <span style="font-size: 1.5rem; margin-right: 1rem; color: var(--primary-color);">💬</span>
+                            <div>
+                                <strong>微信</strong>
+                                <p>frontend-dev</p>
+                            </div>
+                        </div>
+                        <div style="margin-bottom: 1rem; display: flex; align-items: center;">
+                            <span style="font-size: 1.5rem; margin-right: 1rem; color: var(--primary-color);">🐱</span>
+                            <div>
+                                <strong>GitHub</strong>
+                                <p>github.com/frontend-dev</p>
+                            </div>
+                        </div>
+                        <div style="margin-bottom: 1rem; display: flex; align-items: center;">
+                            <span style="font-size: 1.5rem; margin-right: 1rem; color: var(--primary-color);">📘</span>
+                            <div>
+                                <strong>知乎</strong>
+                                <p>zhihu.com/people/frontend-dev</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="card-title">关注我</h3>
+                    <div style="display: flex; gap: 1rem;">
+                        <a href="#" style="font-size: 2rem; color: var(--primary-color); transition: all 0.3s ease;">🐱</a>
+                        <a href="#" style="font-size: 2rem; color: var(--primary-color); transition: all 0.3s ease;">📘</a>
+                        <a href="#" style="font-size: 2rem; color: var(--primary-color); transition: all 0.3s ease;">📧</a>
+                        <a href="#" style="font-size: 2rem; color: var(--primary-color); transition: all 0.3s ease;">💬</a>
+                    </div>
+                </div>
+                <div class="card scroll-reveal">
+                    <h3 class="card-title">发送消息</h3>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">姓名</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">邮箱</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">主题</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">消息内容</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ部分 -->
+    <section class="section" style="background-color: #f8f9fa;">
+        <div class="container">
+            <h2 class="section-title">常见问题</h2>
+            <div class="grid">
+                <div class="card scroll-reveal">
+                    <h3 class="card-title">📚 如何开始学习前端开发？</h3>
+                    <p class="card-content">建议从HTML5和CSS3开始学习，掌握基础的网页结构和样式设计。然后学习JavaScript，掌握交互逻辑。之后可以学习一个流行的前端框架，如React或Vue。最重要的是多做实践项目，通过项目来巩固所学知识。</p>
+                </div>
+                <div class="card scroll-reveal">
+                    <h3 class="card-title">💡 学习前端开发需要哪些工具？</h3>
+                    <p class="card-content">常用的前端开发工具包括：代码编辑器（如VS Code）、浏览器开发者工具（Chrome DevTools）、版本控制工具（Git）、设计工具（Figma、Sketch）等。这些工具可以提高开发效率，建议尽早熟悉使用。</p>
+                </div>
+                <div class="card scroll-reveal">
+                    <h3 class="card-title">🤝 如何提高前端开发技能？</h3>
+                    <p class="card-content">提高前端开发技能的方法包括：阅读技术文档和博客、观看教学视频、参加在线课程、参与开源项目、解决编程挑战、与其他开发者交流等。持续学习和实践是提高技能的关键。</p>
+                </div>
+                <div class="card scroll-reveal">
+                    <h3 class="card-title">🎯 前端开发的职业前景如何？</h3>
+                    <p class="card-content">前端开发是一个快速发展的领域，随着互联网和移动互联网的普及，对前端开发者的需求不断增长。前端开发涉及的技术范围广泛，包括网页开发、移动应用开发、响应式设计等，职业前景广阔。</p>
+                </div>
+                <div class="card scroll-reveal">
+                    <h3 class="card-title">📱 如何学习响应式设计？</h3>
+                    <p class="card-content">学习响应式设计需要掌握媒体查询、流体布局、弹性图片等技术。建议使用Bootstrap等响应式框架进行学习，了解响应式设计的核心概念和实现方法。同时，需要在不同设备上测试网页，确保良好的用户体验。</p>
+                </div>
+                <div class="card scroll-reveal">
+                    <h3 class="card-title">🚀 如何进行前端性能优化？</h3>
+                    <p class="card-content">前端性能优化包括减少HTTP请求、压缩资源文件、使用CDN、优化图片、减少DOM操作、使用缓存等。可以使用Lighthouse等工具进行性能分析，找出性能瓶颈并进行优化。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>前端开发日志</h3>
+                    <p>记录一名大一前端开发者的学习历程和项目分享，分享前端技术知识和学习经验。</p>
+                </div>
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="blog.html">博客</a></li>
+                        <li><a href="projects.html">项目</a></li>
+                        <li><a href="about.html">关于我</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>联系我</h3>
+                    <ul>
+                        <li>邮箱：frontend@example.com</li>
+                        <li>GitHub：github.com/frontend-dev</li>
+                        <li>微信：frontend-dev</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 前端开发日志. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // 滚动动画
+        function revealOnScroll() {
+            const reveals = document.querySelectorAll('.scroll-reveal');
+            
+            for (let i = 0; i < reveals.length; i++) {
+                const windowHeight = window.innerHeight;
+                const elementTop = reveals[i].getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add('revealed');
+                }
+            }
+        }
+        
+        window.addEventListener('scroll', revealOnScroll);
+        
+        // 页面加载时执行一次
+        revealOnScroll();
+        
+        // 表单提交处理
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // 这里可以添加表单提交逻辑
+            alert('消息发送成功！我会尽快回复您。');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
